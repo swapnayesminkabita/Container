@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-box{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.box-style{
+    width: 45%;
+    /* height: 180px; */
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+    align-items: center;
+}
+div div img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+div div img h1{
+   padding: 10px 0 0;
+}
